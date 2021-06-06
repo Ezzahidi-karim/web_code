@@ -1,0 +1,70 @@
+body{
+	font-family: 'helvatica' ,sans-serif;
+}
+.container{
+	margin-top: 4%;
+	margin-left: 30%;
+	padding: 10px;
+	width: 310px;
+	border: 1px solid #ededed;
+
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.03);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.03);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.03);
+}
+form{
+	width: auto;
+	height: auto;
+	padding-bottom: 20px;
+}
+textarea{
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+label.labels{
+	font-weight: 600;
+	font-size: 12px;
+	color:#6B6B6B;
+}
+
+.textarea_style{
+	margin-top: 5px;
+	width: auto;
+	height: auto;
+	border: 1px solid #229CFF;
+	border-radius: 2px;
+	font-size: 16px;
+}
+.textarea_style:hover{
+	-moz-box-shadow: 0px 0px 10px 1px  #EBF6FF;
+	-webkit-box-shadow: 0px 0px 10px 1px  #EBF6FF;
+	box-shadow: 0px 0px 10px 1px  #EBF6FF;
+	border: 1px solid #229CFF;
+}
+.textarea_style:focus{
+	-moz-box-shadow: 0px 0px 5px 1px #EBF6FF;
+	-webkit-box-shadow: 0px 0px 5px 1px  #EBF6FF;
+	box-shadow: 0px 0px 5px 1px  #EBF6FF;
+	border: 1px solid #229CFF;
+}
+
+textarea::-webkit-scrollbar {
+	width: 3px;
+}
+
+textarea::-webkit-scrollbar-track {
+	-webkit-box-shadow:inset 0 0 10px #BDDAE0;
+}
+
+textarea::-webkit-scrollbar-thumb {
+	background-color: #0B8FF9;
+}
+
+span.textarea_count{
+	margin-top: 2px;
+	float: right;
+	font-size: 10px;
+	color:#EC0F0F;
+}
