@@ -1,0 +1,97 @@
+body{
+	font-family: 'helvatica', sans-serif;
+}
+.register{
+	margin-left: 40%;
+	width:300px;
+	height: auto;
+	border: 1px solid #ABB2B9;
+	border-radius: 5px;
+
+	-moz-box-shadow:  0px  1px  5px 3px  rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 5px 3px  rgba(0, 0, 0, 0.1);
+    box-shadow:0px 1px 5px 3px  rgba(0, 0, 0, 0.1);
+}
+.form{
+	padding: 40px 0px;
+	width: 300px;
+	height: auto;
+	text-align: center;
+
+}
+.title{
+	font-size: 30px;
+}
+.inputs{
+	border:1Px solid #F5B7B1 ;
+	outline: none;
+	outline-color: none;
+	padding: 10px 8px;
+	margin: 5px 0px;
+	width: 260px;
+
+}
+
+.inputs:hover{
+	border:1Px solid #F1948A;
+
+	outline: none;
+	outline-color: none;
+	
+}
+.inputs:focus{
+	outline: none;
+	outline-color: none;
+	border:1Px solid #EC7063;
+	
+}
+.Remember{
+	margin:5px 5px;
+	width: 280PX;
+	height: 30px;
+	font-size: 14px;
+	vertical-align: middle;
+
+
+}
+
+.rb{
+	float: left;
+}
+.lbl_rb{
+	float: left;
+}
+.fg{
+	float: right;
+}
+
+.buttons{
+	outline: none;
+	outline-color: none;
+	border: 1px solid #E74C3C;
+	padding: 10px 8px;
+	margin: 5px 0px;
+	width: 280px;
+	background-color: #E74C3C;
+	color: white;
+	font-size: 18px;
+	border-radius: 0px;
+}
+
+.buttons:hover{
+	transition: 0.4s;
+	background-color:#CB4335;
+	border: 1px solid #B03A2E;
+
+}
+.redirect{
+	font-size: 14px;
+
+}
+.links{
+	color:  #E74C3C;
+	text-decoration-line: none;
+	font-size: 14px;
+}
+
+/*Register part*/

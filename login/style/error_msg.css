@@ -1,0 +1,18 @@
+.err_msg{
+	display: none;
+
+	width: 260px;
+	height: auto;
+	padding: 10px;
+
+	margin: 5px 10px;
+	color: #111;
+	background-color: #FADBD8;
+
+	border-radius: 2px;
+	border-top: 4px solid #FB1F09;
+
+	font-size: 14px;
+	word-wrap: break-word;
+	text-align: left;
+}
