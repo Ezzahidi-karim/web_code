@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+}
+.bg{
+	background-image: url('./img/bg_2.png');
+	width: 1366px;
+	height: 625px;
+}
+.forms{
+	border: none;
+
+}
+.clear_text{
+	background-image: url('./img/clear_text.png');
+	position: absolute;
+	top: 412px;
+	left: 575px;
+	z-index: 31;
+	width: 30PX;
+	height: 30PX;
+}
+.text_design{
+	position: absolute;
+	width: 430PX;
+	height: 60PX;
+	top: 400px;
+	left: 200px;
+	z-index: 30;
+	background-image: url('./img/textbox_2.png');
+	background-repeat: no-repeat;
+	border: none;
+}
+.user_search_input{
+	position: absolute;
+	color: black;
+	width: 380PX;
+	padding: 15px;
+	margin-top: 4px;
+	margin-left: 20px;
+	padding-left: 10px;
+	z-index: 20;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+.send_btn{
+	position: absolute;
+	top: 400px;
+	left: 650px;
+	z-index: 30;
+	background: none;
+	width: 60PX;
+	height: 60PX;
+	border: none;
+	background-image: url('./img/send_btn_2.png');
+	text-align: center;
+	background-repeat: no-repeat;
+}
+#stop_typing{
+	display: none;
+}

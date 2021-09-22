@@ -1,0 +1,321 @@
+
+/*head and body*/
+.h{
+	position: absolute;
+	top: 60px;
+	left: 600px;
+	z-index: 10;
+}
+.eyes{
+ 	position: absolute;
+	top: 64px;
+	left: 596px;
+	z-index: 11;
+	animation: eyes_blinck 0.5s infinite; width:143px; height:100px; 
+ }
+
+.mn{
+	position: absolute;
+	top: 169px;
+	left: 604px;
+	z-index: 9;
+
+}
+.b{
+	position: absolute;
+	top: 167px;
+	left: 604px;
+	z-index: 8;
+
+}
+
+/*right arm*/
+
+
+.r_a{
+	position: absolute;
+	top: 202PX;
+	left: 540PX;
+	z-index: 7;
+}
+
+.r_h{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 270px;
+	left: 510PX;
+	z-index: 6;
+
+}
+.r_f1{
+	position: absolute;
+	top: 270px;
+	left: 510PX;
+	z-index: 7;
+
+}
+
+.r_f2{
+	position: absolute;
+	top: 270px;
+	left: 510PX;
+	z-index: 7;
+
+}
+.r_f3{
+	position: absolute;
+	top: 270px;
+	left: 510PX;
+	z-index: 7;
+
+}
+.r_f4{
+	position: absolute;
+	top: 270px;
+	left: 510PX;
+	z-index: 7;
+	
+}
+/*left arm*/
+
+.l_a{
+	position: absolute;
+	top: 202PX;
+	left: 620PX;
+	z-index: 10;
+}
+.l_h{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 270px;
+	left: 589PX;
+	z-index: 9;
+}
+.l_f1{
+	position: absolute;
+	top: 270px;
+	left: 589PX;
+	z-index: 9;
+
+}
+
+.l_f2{
+	position: absolute;
+	top: 270px;
+	left: 589PX;
+	z-index: 9;
+
+}
+.l_f3{
+	position: absolute;
+	top: 270px;
+	left: 589PX;
+	z-index: 9;
+
+}
+.l_f4{
+	position: absolute;
+	top: 270px;
+	left: 589PX;
+	z-index: 9;
+	
+}
+
+
+
+.k{
+	position: absolute;
+	top: 272px;
+	left: 410px;
+	z-index: 1;
+
+}
+
+.a{
+	position: absolute;
+	
+	animation-name: breath;
+	animation-duration: 0.8s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.l_hand{
+	position: absolute;
+	
+	animation-name: hand_move;
+	animation-duration: 0.3s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+}
+.l_finger1{
+	position: absolute;
+	
+	animation-name: typing_a;
+	animation-duration: 0.2s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.l_finger2{
+	position: absolute;
+	
+	animation-name: typing_b;
+	animation-duration: 0.35s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.l_finger3{
+	position: absolute;
+	
+	animation-name: typing_c;
+	animation-duration: 0.4s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.l_finger4{
+	position: absolute;
+	
+	animation-name: typing_d;
+	animation-duration: 0.13s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.head_breath{
+
+	animation-name: breath;
+	animation-duration: 0.8s;
+	animation-fill-mode: both;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.text_container{
+	background-image: url('./img/text_container.png');
+  position: absolute;
+	width: 320px;
+  	height: 220px;
+	top: 270px;
+  	left: 820px;
+	z-index:29;
+}
+.response_text
+{
+  width: 260px;
+  height: auto;
+  margin-top: 45px;
+  margin-left: 30px;
+
+  word-wrap: break-word;
+  font-family: 'ubuntu', sans-serif;  
+  font-size: 18px;
+	color: white;
+	z-index: 30;
+}
+.text_write{
+
+  white-space: nowrap;
+  overflow: hidden;    
+  word-wrap: break-word;
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 20px;
+  color: black;
+  
+}
+
+/* Animation */
+.text_append{
+  animation: animated_text 3s steps(30,end) 1s 1 normal both;
+  word-wrap: break-word;
+
+}
+
+/* text animation */
+
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+.quote {
+  font-family: "Karla", sans-serif;
+   text-align: left;
+   font-size: 50px;
+   padding-top: 20px;
+  background-color: white;
+  color: white;
+   font-size: 20px;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.cursor {
+    animation: blink 0.7s infinite;
+}
+
+
+/*Annimation */
+/*head*/
+/*body*/
+/*arms*/
+/*hand*/
+/*finger*/
+/**/
+
+/*all animmation*/
+@keyframes eyes_blinck{
+   0%,100%  {background-image: url("./img/eyes_open.png");}
+   50% {background-image: url("./img/eyes_close.png");}
+}
+
+@keyframes hand_move{
+	from{transform: translateY(0px);}
+	to{transform: translateY(1px);}
+}
+
+@keyframes typing_a{
+	from{transform: translateY(0px);}
+	to{transform: translateY(6px);}
+}
+@keyframes typing_b{
+	from{transform: translateY(0px);}
+	to{transform: translateY(6px);}
+}
+@keyframes typing_c{
+	from{transform: translateY(0px);}
+	to{transform: translateY(6px);}
+}
+@keyframes typing_d{
+	from{transform: translateY(0px);}
+	to{transform: translateY(6px);}
+}
+
+
+@keyframes breath{
+	from{transform: translateY(0px);}
+	to{transform: translateY(2px);}
+}
+
+
+@keyframes animated_text{
+  from{width: 0;}
+  to{width: 400px;}
+}
