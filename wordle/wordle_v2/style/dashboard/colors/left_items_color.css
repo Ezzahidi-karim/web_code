@@ -1,0 +1,30 @@
+:root {
+    --left_bg: rgb(3, 55, 90);
+    --left_bg_white: rgb(3, 55, 90);
+}
+
+.dash_content_left {
+    background-color: var(--left_bg);
+}
+
+.content_left {
+    background-color: var(--left_bg);
+}
+
+.left_item {
+    background-color: var(--left_bg);
+    color: var(--white_text);
+    transition: 0.5s;
+}
+
+.left_item:hover {
+    background-color: var(--bg_hover);
+    color: var(--white_hover);
+    transition: 0.5s;
+}
+
+.left_item_active {
+    background-color: var(--white_hover);
+    color: var(--focus);
+    transition: 0.2s;
+}
